@@ -1,5 +1,5 @@
 {
-  "conflict_check": {
+  "prek_ubuntu": {
     "image": "ubuntu",
     "features": {
       "prek": {}
