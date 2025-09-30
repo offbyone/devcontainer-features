@@ -1,0 +1,16 @@
+{
+  "id": "prek",
+  "version": "1.0.0",
+  "name": "prek (via GitHub Releases)",
+  "documentationURL": "http://github.com/devcontainers-extra/features/tree/main/src/prek",
+  "description": "prek is a reimagined version of pre-commit, built in Rust.",
+  "options": {
+    "version": {
+      "default": "latest",
+      "description": "Select the version to install.",
+      "proposals": ["latest"],
+      "type": "string"
+    }
+  },
+  "installsAfter": []
+}

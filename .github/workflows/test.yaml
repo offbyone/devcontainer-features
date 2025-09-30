@@ -13,12 +13,11 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - prek
         baseImage:
           - debian:latest
           - ubuntu:latest
-          - mcr.microsoft.com/devcontainers/base:ubuntu
+          - ubuntu
     steps:
       - uses: actions/checkout@v4
 
@@ -34,8 +33,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - prek
     steps:
       - uses: actions/checkout@v4
 
