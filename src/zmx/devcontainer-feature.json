@@ -1,0 +1,19 @@
+{
+    "id": "zmx",
+    "version": "1.0.0",
+    "name": "zmx",
+    "description": "Installs zmx — session persistence for terminal processes (https://zmx.sh)",
+    "documentationURL": "https://github.com/offbyone/devcontainer-features/tree/main/src/zmx",
+    "licenseURL": "https://github.com/offbyone/devcontainer-features/blob/main/LICENSE",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "0.6.0",
+            "description": "The version of zmx to install (e.g. '0.6.0')"
+        }
+    },
+    "containerEnv": {},
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
