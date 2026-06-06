@@ -1,0 +1,10 @@
+{
+    "install_specific_version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "zmx": {
+                "version": "0.6.0"
+            }
+        }
+    }
+}
